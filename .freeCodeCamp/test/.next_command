@@ -68,3 +68,4 @@ ls --color=auto
 chmod +x student_info.sh
 -f
 which bash
+./student_info.sh
