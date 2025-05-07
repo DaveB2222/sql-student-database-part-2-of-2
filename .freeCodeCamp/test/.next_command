@@ -66,3 +66,5 @@ psql -U postgres < students.sql
 touch student_info.sh
 ls --color=auto
 chmod +x student_info.sh
+-f
+which bash
