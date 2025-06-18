@@ -483,3 +483,7 @@ ssh-add ~/.ssh/id_ed25519
 ssh-keygen -t ed25519 -C davidb22897@gmail.com
 cat ~/.ssh/id_ed25519.pub
 git add .
+git commit -m "Initial commit for Part 2"
+git push -u origin main
+rm backup.sql
+git add .
