@@ -475,3 +475,11 @@ git remote -v
 git remote add origin git@github.com:DaveB2222/sql-student-database-part-2-of-2.git
 git remote -v
 git add .
+git commit -m "Initial commit for Part 2"
+git push -u origin main
+ls --color=auto ~/.ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-keygen -t ed25519 -C davidb22897@gmail.com
+cat ~/.ssh/id_ed25519.pub
+git add .
